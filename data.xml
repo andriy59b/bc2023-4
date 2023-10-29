@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?><indicators>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Пасиви</txt>
+    <txten>Liabilities</txten>
+    <id_api>BS3_Liab</id_api>
+    <leveli>1</leveli>
+    <parent>Main_Indicators</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>1590693.0173</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти небанківських фінансових установ</txt>
+    <txten>Amounts due to non-bank financial institutions</txten>
+    <id_api>BS3_AmountsDueNonBankFinInst</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_BanksLiab</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>28336.0999</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Нараховані доходи до отримання за кредитами наданими клієнтам</txt>
+    <txten>Accrued interest receivable of loans granted to customers</txten>
+    <id_api>BS3_LoansGrantCustAccruedInter</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_LoansGrantCust</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>158195.8968</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Капітал</txt>
+    <txten>Equity</txten>
+    <id_api>BS3_Equity</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Liab</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>200671.0531</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти небанківських фінансових установ в іноземній валюті</txt>
+    <txten>Amounts due to non-bank financial institutions in foreign currency</txten>
+    <id_api>BS3_AmountsDueNonBankFinInstFC</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueNonBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>5167.2592</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити, що надані суб`єктам господарювання</txt>
+    <txten>Corporate loans</txten>
+    <id_api>BS3_CorporateLoans</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>846650.1681</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити, що надані суб`єктам господарювання в національній валюті</txt>
+    <txten>Corporate loans in national currency</txten>
+    <id_api>BS3_CorporateLoansNC</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_CorporateLoans</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>431627.1623</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Нараховані доходи до отримання за вкладеннями в цінні папери та депозитними сертифікатами</txt>
+    <txten>Accrued interest receivable on  investments in securities and deposit certificates </txten>
+    <id_api>BS3_InvestSecLongTermInvestAccruedInter</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_InvestSecLongTermInvest</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>8736.8058</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Нараховані доходи до отримання за строковими вкладами в інших банках та кредитами, наданими іншим банкам</txt>
+    <txten>Accrued interest receivable of term deposits with other banks and loans granted to other banks</txten>
+    <id_api>BS3_TermDepLoansGrantAccruedInterOtherBanks</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_TermDepLoansGrantOtherBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>35.0002</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Нараховані витрати до сплати за коштами небанківських фінансових установ</txt>
+    <txten>accrued expenses payable to non-bank financial institutions</txten>
+    <id_api>BS3_AmountsDueNonBankFinInstAccruedExp</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueNonBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>267.7901</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти фізичних осіб (з ощадними (депозитними) сертифікатами) в національній валюті</txt>
+    <txten>Amounts due to individuals (including saving (deposit) certificates) in national currency</txten>
+    <id_api>BS3_AmountsDueIndividNC</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueIndivid</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>356028.5279</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Загальні активи (не скориговані на резерви за активними операціями) в іноземній валюті</txt>
+    <txten>Total assets (not adjusted for assets provisions) in foreign currency</txten>
+    <id_api>BS3_AssetsTotalNotAdjFC</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_AssetsTotalNotAdj</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>808481.6541</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти фізичних осіб (з ощадними (депозитними) сертифікатами)</txt>
+    <txten>Amounts due to individuals (including saving (deposit) certificates)</txten>
+    <id_api>BS3_AmountsDueIndivid</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_BanksLiab</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>619115.1243</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Строкові кошти суб&apos;єктів господарювання</txt>
+    <txten>Corporate term deposits</txten>
+    <id_api>BS3_CorpTermDep</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueCorp</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>112574.6805</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити, що надані органам державної влади в національній валюті</txt>
+    <txten>Loans granted to general government in national currency</txten>
+    <id_api>BS3_LoansGrantGenGovNC</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_LoansGrantGenGov</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>4662.3375</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити, що надані органам державної влади</txt>
+    <txten>Loans granted to general government</txten>
+    <id_api>BS3_LoansGrantGenGov</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>4662.3375</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити, що надані фізичним особам</txt>
+    <txten>Retail loans</txten>
+    <id_api>BS3_RetailLoans</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>211064.2534</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Нараховані витрати до сплати за строковими вкладами (депозитами) інших банків та кредитами, що отримані від інших банків</txt>
+    <txten>Accrued expenses payable of term deposits of other banks and loans received from other banks</txten>
+    <id_api>BS3_TermDepLoansReceivOtherBanksAccruedExp</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_TermDepLoansReceivOtherBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>1766.6215</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Нараховані витрати до сплати за коштами суб&apos;єктів господарювання</txt>
+    <txten>Accrued expenses payable to corporates</txten>
+    <id_api>BS3_AmountsDueCorpAccruedExp</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueCorp</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>1489.1074</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити, надані небанківським фінансовим установам</txt>
+    <txten>Loans granted to non-bank financial institutions</txten>
+    <id_api>BS3_LoansGrantNonBanksFinInst</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>51.5322</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти небанківських фінансових установ в національній валюті</txt>
+    <txten>Amounts due to non-bank financial institutions in national currency</txten>
+    <id_api>BS3_AmountsDueNonBankFinInstNC</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueNonBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>23168.8408</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>ОВДП</txt>
+    <txten>Internal Government Loan Bonds</txten>
+    <id_api>BS3_IGLB</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_InvestSecLongTermInvest</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>451067.03</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Активи в іноземній валюті</txt>
+    <txten>Assets in foreign currency</txten>
+    <id_api>BS3_AssetsFC</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>547060.6201</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Дисконт/премія за вкладеннями в цінні папери та депозитні сертифікати</txt>
+    <txten>Discount/premium on investments in securities and deposit certificates </txten>
+    <id_api>BS3_InvestSecLongTermInvestDiscount</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_InvestSecLongTermInvest</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>-26187.8302</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Вкладення в цінні папери та депозитні сертифікати</txt>
+    <txten>Investments in securities and deposit certificates</txten>
+    <id_api>BS3_InvestSecLongTermInvest</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>605933.1788</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти суб&apos;єктів господарювання в іноземній валюті</txt>
+    <txten>Amounts due to corporates in foreign currency</txten>
+    <id_api>BS3_AmountsDueCorpFC</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueCorp</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>222440.7979</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти в Національному банку України</txt>
+    <txten>Amounts due from the National Bank of Ukraine</txten>
+    <id_api>BS3_AmountsDueNBU</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>49276.968</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Банківські метали</txt>
+    <txten>Banking metals</txten>
+    <id_api>BS3_BankingMetals</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>426.0593</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Зобов&apos;язання банків</txt>
+    <txten>Banks&apos; liabilities</txten>
+    <id_api>BS3_BanksLiab</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Liab</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>1390021.9642</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Строкові вклади в інших банках та кредити, надані іншим банкам</txt>
+    <txten>Term deposits with other banks and loans granted to other banks</txten>
+    <id_api>BS3_TermDepLoansGrantOtherBanks</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>37883.623</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Зобов&apos;язання банків в іноземній валюті</txt>
+    <txten>Banks&apos; liabilities in foreign currency</txten>
+    <id_api>BS3_BanksLiabFC</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_BanksLiab</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>614403.2793</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Строкові вклади в інших банках та кредити, надані іншим банкам в національній валюті</txt>
+    <txten>Term deposits with other banks and loans granted to other banks in national currency</txten>
+    <id_api>BS3_TermDepLoansGrantOtherBanksNC</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_TermDepLoansGrantOtherBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>1966.2028</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Статутний капітал</txt>
+    <txten>Authorized capital</txten>
+    <id_api>BS3_AuthorizedCapital</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_Equity</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>473400.6822</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти небанківських фінансових установ-нерезидентів</txt>
+    <txten>Amounts due to nonresident non-bank financial institutions</txten>
+    <id_api>BS3_AmountsDueNonBankFinInstNonres</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueNonBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>93.1716</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кореспондентські рахунки, що відкриті в інших банках</txt>
+    <txten>Correspondent accounts with other banks</txten>
+    <id_api>BS3_CorAccountsOtherBanks</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>182461.3163</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти фізичних осіб-нерезидентів (з ощадними (депозитними) сертифікатами)</txt>
+    <txten>Amounts due to nonresident individuals (including saving (deposit) certificates)</txten>
+    <id_api>BS3_AmountsDueIndividNonres</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueIndivid</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>6627.3136</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти суб&apos;єктів господарювання в національній валюті</txt>
+    <txten>Amounts due to corporates in national currency</txten>
+    <id_api>BS3_AmountsDueCorpNC</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueCorp</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>301042.0836</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Дисконт/премія за коштами суб&apos;єктів господарювання</txt>
+    <txten>Amounts due to corporates discount/premium</txten>
+    <id_api>BS3_AmountsDueCorpDiscount</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueCorp</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>-11.9469</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Дисконт/премія за коштами небанківських фінансових установ</txt>
+    <txten>discount/premium of non-bank financial institutions</txten>
+    <id_api>BS3_AmountsDueNonBankFinInstDiscount</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueNonBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>-14.2913</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити, що надані фізичним особам в національній валюті</txt>
+    <txten>Retail loans in national currency</txten>
+    <id_api>BS3_RetailLoansNC</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_RetailLoans</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>169153.4572</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Дисконт/премія за строковими вкладами (депозитами) інших банків та кредитами, що отримані від інших банків</txt>
+    <txten>Discount/premium of term deposits of other banks and loans received from other banks</txten>
+    <id_api>BS3_TermDepLoansReceivOtherBanksDiscount</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_TermDepLoansReceivOtherBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>-19.9217</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити, що надані суб`єктам господарювання в іноземній валюті</txt>
+    <txten>Corporate loans in foreign currency</txten>
+    <id_api>BS3_CorporateLoansFC</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_CorporateLoans</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>415023.0058</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити надані клієнтам</txt>
+    <txten>Loans granted to customers</txten>
+    <id_api>BS3_LoansGrantCust</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>1062428.2912</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Строкові вклади нерезидентів в інших банках та кредити, надані нерезидентами іншим банкам</txt>
+    <txten>Term deposits of nonresidents with other banks and loans granted to other banks</txten>
+    <id_api>BS3_TermDepLoansGrantOtherBanksNonres</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_TermDepLoansGrantOtherBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>34511.484</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти суб&apos;єктів господарювання-нерезидентів</txt>
+    <txten>Amounts due to nonresident corporates</txten>
+    <id_api>BS3_AmountsDueCorpNonres</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueCorp</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>20781.2733</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Нараховані витрати до сплати за коштами фізичних осіб (з ощадними (депозитними) сертифікатами)</txt>
+    <txten>Accrued expenses payable to individuals</txten>
+    <id_api>BS3_AmountsDueIndividAccruedExp</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueIndivid</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>3119.4191</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Дисконт/премія за коштами фізичних осіб (з ощадними (депозитними) сертифікатами)</txt>
+    <txten>Amounts due to individuals (including saving (deposit) certificates) discount/premium</txten>
+    <id_api>BS3_AmountsDueIndividDiscount</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueIndivid</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>-79.5648</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Загальні активи нерезидентів (не скориговані на резерви за активними операціями)</txt>
+    <txten>Total assets of nonresidents (not adjusted for assets provisions)</txten>
+    <id_api>BS3_AssetsTotalNonresNotAdj</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_AssetsTotalNotAdj</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>293497.9929</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Вкладення  в цінні папери та депозитні сертифікати нерезидентів</txt>
+    <txten>Investments in securities and deposit certificates of nonresidents </txten>
+    <id_api>BS3_InvestSecLongTermInvestNonres</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_InvestSecLongTermInvest</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>4990.4173</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти фізичних осіб (з ощадними (депозитними) сертифікатами) в іноземній валюті</txt>
+    <txten>Amounts due to individuals (including saving (deposit) certificates) in foreign currency</txten>
+    <id_api>BS3_AmountsDueIndividFC</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueIndivid</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>263086.5964</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Строкові кошти небанківських фінансових установ</txt>
+    <txten>Term deposits of non-bank financial institutions</txten>
+    <id_api>BS3_TermDepNonBankFinInst</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueNonBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>17068.4156</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Строкові вклади (депозити) інших банків-нерезидентів та кредити, що отримані від інших банків-нерезидентів</txt>
+    <txten>Term deposits of other nonresident banks and loans received from other nonresident banks</txten>
+    <id_api>BS3_TermDepLoansReceivOtherBanksNonres</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_TermDepLoansReceivOtherBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>21738.7993</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Строкові вклади в інших банках та кредити, надані іншим банкам в іноземній валюті</txt>
+    <txten>Term deposits with other banks and loans granted to other banks in foreign currency</txten>
+    <id_api>BS3_TermDepLoansGrantOtherBanksFC</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_TermDepLoansGrantOtherBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>35917.4202</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити надані нерезидентам</txt>
+    <txten>Loans granted to nonresidents</txten>
+    <id_api>BS3_LoansGrantNonres</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_LoansGrantCust</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>71098.0836</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Строкові вклади (депозити) інших банків та кредити, що отримані від інших банків</txt>
+    <txten>Term deposits of other banks and loans received from other banks</txten>
+    <id_api>BS3_TermDepLoansReceivOtherBanks</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_BanksLiab</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>23254.9761</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Дисконт/премія за строковими вкладами в інших банках та кредитами, наданими іншим банкам</txt>
+    <txten>Term deposits with other banks and loans granted to other banks discount/premium</txten>
+    <id_api>BS3_TermDepLoansGrantDiscountOtherBanks</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_TermDepLoansGrantOtherBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>0.058</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Строкові кошти фізичних осіб (з ощадними (депозитними) сертифікатами)</txt>
+    <txten>Term deposits of  individuals (including saving (deposit) certificates)</txten>
+    <id_api>BS3_TermDepIndivid</id_api>
+    <leveli>4</leveli>
+    <parent>BS3_AmountsDueIndivid</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>344799.2989</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кореспондентські рахунки нерезидентів, що відкриті в інших банках</txt>
+    <txten>Correspondent accounts of nonresidents with other banks</txten>
+    <id_api>BS3_CorAccountsNonresOtherBanks</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_CorAccountsOtherBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>172801.9147</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Активи</txt>
+    <txten>Assets</txten>
+    <id_api>BS3_Assets</id_api>
+    <leveli>1</leveli>
+    <parent>Main_Indicators</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>1590693.017</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Готівкові кошти</txt>
+    <txten>Cash</txten>
+    <id_api>BS3_Cash</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>60670.6449</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити, що надані фізичним особам в іноземній валюті</txt>
+    <txten>Retail loans in foreign currency</txten>
+    <id_api>BS3_RetailLoansFC</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_RetailLoans</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>41910.7962</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Загальні активи (не скориговані на резерви за активними операціями)</txt>
+    <txten>Total assets (not adjusted for assets provisions)</txten>
+    <id_api>BS3_AssetsTotalNotAdj</id_api>
+    <leveli>1</leveli>
+    <parent>Main_Indicators</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>2114195.0029</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кредити, надані небанківським фінансовим установам в національній валюті</txt>
+    <txten>Loans granted to non-bank financial institutions in national currency</txten>
+    <id_api>BS3_LoansGrantNonBanksFinInstNC</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_LoansGrantNonBanks</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>51.5322</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Дисконт/премія за кредитами наданими клієнтам</txt>
+    <txten>Discount/premium of loans granted to customers</txten>
+    <id_api>BS3_LoansGrantCustDiscount</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_LoansGrantCust</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>-34270.5276</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Кошти суб&apos;єктів господарювання</txt>
+    <txten>Amounts due to corporates</txten>
+    <id_api>BS3_AmountsDueCorp</id_api>
+    <leveli>3</leveli>
+    <parent>BS3_BanksLiab</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>523482.8815</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+  <basindbank>
+    <dt>20200601</dt>
+    <txt>Резерви за активними операціями банків (з урахуванням резервів за операціями, які обліковуються на позабалансових рахунках)</txt>
+    <txten>Provisions against asset-side operations (including provisions against operations recorded on off-balance accounts)</txten>
+    <id_api>BS3_ProvAgainstAssetOper</id_api>
+    <leveli>2</leveli>
+    <parent>BS3_Assets</parent>
+    <freq>M</freq>
+    <fullname>0 Банки</fullname>
+    <value>527996.277</value>
+    <tzep>T070_7</tzep>
+  </basindbank>
+</indicators>
